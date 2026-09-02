@@ -1,0 +1,686 @@
+/* =========================================================
+   LIQUID STAGE COCKTAILS — CLIENT PRESENTATION LAYOUT
+   Add AFTER assets/css/styles.css
+   ========================================================= */
+
+/* External Unsplash images */
+.cocktail-page-hero-image,
+.cocktail-lookbook-image,
+.cocktail-classic-image,
+.cocktail-experience-image,
+.cocktail-signature-image {
+    overflow: hidden;
+}
+
+.cocktail-page-hero-image > img,
+.cocktail-lookbook-image > img,
+.cocktail-classic-image > img,
+.cocktail-experience-image > img,
+.cocktail-signature-image > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Keep normal overlays and copy above the image */
+.cocktail-page-hero-image,
+.cocktail-lookbook-image,
+.cocktail-experience-image,
+.cocktail-signature-image {
+    z-index: 0;
+}
+
+.cocktail-lookbook-overlay,
+.cocktail-experience-overlay,
+.cocktail-signature-overlay {
+    z-index: 1;
+}
+
+.cocktail-page-hero-content,
+.cocktail-lookbook-copy,
+.cocktail-experience-copy,
+.cocktail-signature-content {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================================
+   RUM + TEQUILA
+   Row 1 = 3 equal cards
+   Row 2 = 2 wider cards filling the complete row
+   ========================================================= */
+
+.cocktail-classics-grid--five {
+    display: grid !important;
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    gap: 18px !important;
+    align-items: stretch !important;
+}
+
+.cocktail-classics-grid--five > .cocktail-classic-card {
+    grid-column: span 2;
+    min-width: 0;
+    height: 100%;
+}
+
+/* La Brisa Rosa */
+.cocktail-classics-grid--five > .cocktail-classic-card:nth-child(4) {
+    grid-column: 1 / span 3;
+}
+
+/* Veil of Heat */
+.cocktail-classics-grid--five > .cocktail-classic-card:nth-child(5) {
+    grid-column: 4 / span 3;
+}
+
+.cocktail-classics-grid--five .cocktail-classic-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.cocktail-classics-grid--five .cocktail-classic-image {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    flex: 0 0 auto;
+}
+
+.cocktail-classics-grid--five .cocktail-classic-copy {
+    flex: 1;
+}
+
+
+/* =========================================================
+   BEER-LED SIGNATURES
+   Peach Pepper = full tall left column
+   Popcorn = top right
+   Tiramisu = bottom right
+   Bottom and outer edges align perfectly
+   ========================================================= */
+
+.cocktail-experience-grid--beer {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(2, 330px) !important;
+    gap: 18px !important;
+    align-items: stretch !important;
+}
+
+.cocktail-experience-grid--beer > .cocktail-experience-card {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    grid-column: auto !important;
+    overflow: hidden;
+}
+
+/* Peach Pepper Michelada */
+.cocktail-experience-grid--beer > .cocktail-experience-card:nth-child(1) {
+    grid-column: 1 !important;
+    grid-row: 1 / span 2 !important;
+}
+
+/* Popcorn Cream Ale */
+.cocktail-experience-grid--beer > .cocktail-experience-card:nth-child(2) {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+}
+
+/* Tiramisu Stout */
+.cocktail-experience-grid--beer > .cocktail-experience-card:nth-child(3) {
+    grid-column: 2 !important;
+    grid-row: 2 !important;
+}
+
+.cocktail-experience-grid--beer .cocktail-experience-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cocktail-experience-grid--beer .cocktail-experience-card {
+    position: relative;
+}
+
+.cocktail-experience-grid--beer .cocktail-experience-copy {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    .cocktail-classics-grid--five {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+
+    .cocktail-classics-grid--five > .cocktail-classic-card,
+    .cocktail-classics-grid--five > .cocktail-classic-card:nth-child(4),
+    .cocktail-classics-grid--five > .cocktail-classic-card:nth-child(5) {
+        grid-column: auto !important;
+    }
+
+    .cocktail-classics-grid--five > .cocktail-classic-card:last-child {
+        grid-column: 1 / -1 !important;
+    }
+
+    .cocktail-experience-grid--beer {
+        grid-template-columns: 1fr 1fr !important;
+        grid-template-rows: 430px 300px !important;
+    }
+
+    .cocktail-experience-grid--beer > .cocktail-experience-card:nth-child(1) {
+        grid-column: 1 / -1 !important;
+        grid-row: 1 !important;
+    }
+
+    .cocktail-experience-grid--beer > .cocktail-experience-card:nth-child(2) {
+        grid-column: 1 !important;
+        grid-row: 2 !important;
+    }
+
+    .cocktail-experience-grid--beer > .cocktail-experience-card:nth-child(3) {
+        grid-column: 2 !important;
+        grid-row: 2 !important;
+    }
+}
+
+
+@media (max-width: 620px) {
+
+    .cocktail-classics-grid--five {
+        grid-template-columns: 1fr !important;
+    }
+
+    .cocktail-classics-grid--five > .cocktail-classic-card,
+    .cocktail-classics-grid--five > .cocktail-classic-card:nth-child(4),
+    .cocktail-classics-grid--five > .cocktail-classic-card:nth-child(5),
+    .cocktail-classics-grid--five > .cocktail-classic-card:last-child {
+        grid-column: auto !important;
+    }
+
+    .cocktail-experience-grid--beer {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(3, 360px) !important;
+    }
+
+    .cocktail-experience-grid--beer > .cocktail-experience-card:nth-child(1),
+    .cocktail-experience-grid--beer > .cocktail-experience-card:nth-child(2),
+    .cocktail-experience-grid--beer > .cocktail-experience-card:nth-child(3) {
+        grid-column: 1 !important;
+        grid-row: auto !important;
+    }
+}
+.cocktail-category-section .h2{
+    margin-bottom:18px;
+}
+
+.cocktail-card-grid{
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    gap:24px;
+    align-items:stretch;
+}
+
+.cocktail-card-grid--three{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+}
+
+.cocktail-clean-card{
+    display:flex;
+    flex-direction:column;
+    min-height:100%;
+    background:rgba(255,255,255,.02);
+    border:1px solid rgba(255,255,255,.12);
+    overflow:hidden;
+}
+
+.cocktail-clean-image{
+    aspect-ratio:4/5;
+    overflow:hidden;
+}
+
+.cocktail-clean-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+.cocktail-clean-copy{
+    padding:18px 18px 20px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.cocktail-clean-index{
+    font-size:.72rem;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--gold);
+    font-weight:700;
+}
+
+.cocktail-clean-copy h3{
+    margin:0;
+    font-size:1.9rem;
+    line-height:1.05;
+}
+
+.cocktail-clean-copy strong{
+    color:var(--gold);
+    text-transform:uppercase;
+    font-size:.82rem;
+    letter-spacing:.08em;
+}
+
+.cocktail-clean-copy p{
+    margin:0;
+    color:rgba(255,255,255,.84);
+    line-height:1.6;
+    font-size:.98rem;
+}
+
+@media (max-width:1100px){
+    .cocktail-card-grid,
+    .cocktail-card-grid--three{
+        grid-template-columns:repeat(2,minmax(0,1fr));
+    }
+}
+
+@media (max-width:680px){
+    .cocktail-card-grid,
+    .cocktail-card-grid--three{
+        grid-template-columns:1fr;
+    }
+}
+/* =========================================================
+   COCKTAIL CATEGORY NAVIGATION
+========================================================= */
+
+.cocktail-category-nav {
+    position: sticky;
+    top: 72px;
+    z-index: 25;
+    border-top: 1px solid rgba(255,255,255,.08);
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    background: rgba(15,12,10,.92);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+.cocktail-category-nav__inner {
+    display: flex;
+    align-items: center;
+    gap: clamp(22px,4vw,52px);
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.cocktail-category-nav__inner::-webkit-scrollbar {
+    display: none;
+}
+
+.cocktail-category-nav a {
+    position: relative;
+    flex: 0 0 auto;
+    padding: 18px 0 16px;
+    color: rgba(255,255,255,.58);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .11em;
+    font-size: .72rem;
+    transition:
+        color .3s ease,
+        opacity .3s ease;
+}
+
+.cocktail-category-nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: var(--gold);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .3s ease;
+}
+
+.cocktail-category-nav a:hover,
+.cocktail-category-nav a.active {
+    color: var(--gold);
+}
+
+.cocktail-category-nav a.active::after {
+    transform: scaleX(1);
+}
+
+
+
+/* =========================================================
+   CATEGORY SECTION
+========================================================= */
+
+.cocktail-category {
+    overflow: hidden;
+    scroll-margin-top: 150px;
+}
+
+.cocktail-category-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 34px;
+}
+
+.cocktail-category-header .h2 {
+    margin-bottom: 0;
+}
+
+
+
+/* =========================================================
+   RAIL CONTROLS
+========================================================= */
+
+.cocktail-rail-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 0 0 auto;
+    padding-bottom: 6px;
+}
+
+.cocktail-rail-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 50%;
+    background: transparent;
+    color: rgba(255,255,255,.82);
+    cursor: pointer;
+    transition:
+        border-color .3s ease,
+        color .3s ease,
+        background .3s ease,
+        opacity .3s ease;
+}
+
+.cocktail-rail-arrow:hover:not(:disabled) {
+    border-color: var(--gold);
+    color: var(--gold);
+    background: rgba(255,255,255,.03);
+}
+
+.cocktail-rail-arrow:disabled {
+    opacity: .25;
+    cursor: default;
+}
+
+
+
+/* =========================================================
+   HORIZONTAL COCKTAIL RAIL
+========================================================= */
+
+.cocktail-rail {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(250px,23.5%);
+    gap: 22px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 14px;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: none;
+}
+
+.cocktail-rail::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* =========================================================
+   COCKTAIL CARD
+========================================================= */
+
+.cocktail-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: 100%;
+    scroll-snap-align: start;
+    border: 1px solid rgba(255,255,255,.12);
+    background: rgba(255,255,255,.018);
+    overflow: hidden;
+    transition:
+        transform .35s ease,
+        border-color .35s ease,
+        background .35s ease;
+}
+
+.cocktail-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(192,151,99,.48);
+    background: rgba(255,255,255,.025);
+}
+
+
+
+/* =========================================================
+   IMAGE
+========================================================= */
+
+.cocktail-card-image {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    background: rgba(255,255,255,.025);
+}
+
+.cocktail-card-image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+        linear-gradient(
+            0deg,
+            rgba(15,12,10,.28),
+            transparent 40%
+        );
+}
+
+.cocktail-card-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .7s var(--ease);
+}
+
+.cocktail-card:hover .cocktail-card-image img {
+    transform: scale(1.035);
+}
+
+
+
+/* =========================================================
+   CARD COPY
+========================================================= */
+
+.cocktail-card-copy {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px 18px 22px;
+}
+
+.cocktail-card-copy h3 {
+    min-height: 2.2em;
+    margin: 0 0 9px;
+    color: #fff;
+    font-size: clamp(1.15rem,1.4vw,1.45rem);
+    line-height: 1.08;
+}
+
+.cocktail-card-copy strong {
+    display: block;
+    margin-bottom: 12px;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7rem;
+    line-height: 1.3;
+}
+
+.cocktail-card-copy p {
+    margin: 0;
+    color: rgba(255,255,255,.68);
+    font-size: .86rem;
+    line-height: 1.62;
+}
+
+
+
+/* =========================================================
+   SHORT CATEGORY — THREE COCKTAILS
+========================================================= */
+
+@media (min-width:1051px) {
+
+    .cocktail-category.is-static .cocktail-rail {
+        grid-auto-flow: initial;
+        grid-auto-columns: initial;
+        grid-template-columns: repeat(3,minmax(0,1fr));
+        overflow: visible;
+    }
+
+    .cocktail-category.is-static .cocktail-rail-controls {
+        display: none;
+    }
+
+}
+
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width:1050px) {
+
+    .cocktail-category-nav {
+        top: 66px;
+    }
+
+    .cocktail-rail {
+        grid-auto-columns: minmax(245px,44%);
+    }
+
+}
+
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width:700px) {
+
+    .cocktail-category-nav {
+        top: 60px;
+    }
+
+    .cocktail-category-nav__inner {
+        gap: 25px;
+    }
+
+    .cocktail-category-nav a {
+        padding: 15px 0 13px;
+        font-size: .68rem;
+    }
+
+    .cocktail-category {
+        scroll-margin-top: 125px;
+    }
+
+    .cocktail-category-header {
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+
+    .cocktail-category-header .h2 {
+        font-size: clamp(2rem,10vw,3rem);
+    }
+
+    .cocktail-rail-controls {
+        gap: 7px;
+    }
+
+    .cocktail-rail-arrow {
+        width: 39px;
+        height: 39px;
+        font-size: .8rem;
+    }
+
+    .cocktail-rail {
+        grid-auto-columns: 84%;
+        gap: 15px;
+        padding-right: 8vw;
+    }
+
+    .cocktail-card-copy {
+        padding: 18px 16px 20px;
+    }
+
+}
+
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+========================================================= */
+
+@media (max-width:430px) {
+
+    .cocktail-category-header {
+        align-items: flex-end;
+    }
+
+    .cocktail-category-header .h2 {
+        font-size: clamp(1.8rem,9vw,2.5rem);
+    }
+
+    .cocktail-rail-arrow {
+        width: 36px;
+        height: 36px;
+    }
+
+    .cocktail-rail {
+        grid-auto-columns: 88%;
+    }
+
+}

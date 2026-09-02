@@ -1,0 +1,1092 @@
+[
+  {
+    "slug": "karan-aujla",
+    "name": "Karan Aujla",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 8,
+    "location": "8 Cities",
+    "cities": [
+      "Delhi",
+      "Chandigarh",
+      "Indore",
+      "Mumbai",
+      "Kolkata",
+      "Jaipur",
+      "Pune",
+      "Bangalore"
+    ],
+    "barsDeployed": 89,
+    "scope": null,
+    "vipTablesLounges": 22,
+    "team": "100+–500+ per stop",
+    "guestsServed": "220K",
+    "tabletopIO": true,
+    "tabletopIOCoverage": "All stops",
+    "addedOn": "2026-08-14",
+    "image": "karan-aujla-event.webp",
+    "homepageDescription": "8-city concert with 89 bars deployed and 220K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Delhi",
+        "barsDeployed": 33,
+        "scope": null,
+        "vipTablesLounges": 2,
+        "team": "500+",
+        "guestsServed": "75k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Chandigarh",
+        "barsDeployed": 12,
+        "scope": null,
+        "vipTablesLounges": 4,
+        "team": "250+",
+        "guestsServed": "30k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Indore",
+        "barsDeployed": 8,
+        "scope": null,
+        "vipTablesLounges": 2,
+        "team": "150+",
+        "guestsServed": "20k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Mumbai",
+        "barsDeployed": 10,
+        "scope": null,
+        "vipTablesLounges": 2,
+        "team": "200+",
+        "guestsServed": "30k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Kolkata",
+        "barsDeployed": 8,
+        "scope": null,
+        "vipTablesLounges": 3,
+        "team": "150+",
+        "guestsServed": "20k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Jaipur",
+        "barsDeployed": 6,
+        "scope": null,
+        "vipTablesLounges": 3,
+        "team": "100+",
+        "guestsServed": "15k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Pune",
+        "barsDeployed": 6,
+        "scope": null,
+        "vipTablesLounges": 3,
+        "team": "100+",
+        "guestsServed": "15k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Bangalore",
+        "barsDeployed": 6,
+        "scope": null,
+        "vipTablesLounges": 3,
+        "team": "100+",
+        "guestsServed": "15k",
+        "tabletopIO": true
+      }
+    ]
+  },
+  {
+    "slug": "mltr",
+    "name": "MLTR",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 3,
+    "location": "3 Cities",
+    "cities": [
+      "Mumbai",
+      "Delhi",
+      "Bangalore"
+    ],
+    "barsDeployed": 10,
+    "scope": null,
+    "vipTablesLounges": 3,
+    "team": "35–40 per city",
+    "guestsServed": "15K",
+    "tabletopIO": true,
+    "tabletopIOCoverage": "All stops",
+    "addedOn": "2026-08-13",
+    "image": "mltr-event.webp",
+    "homepageDescription": "3-city concert with 10 bars deployed and 15K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 2,
+        "scope": null,
+        "vipTablesLounges": 1,
+        "team": "35",
+        "guestsServed": "5k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Delhi",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": 1,
+        "team": "40",
+        "guestsServed": "5k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Bangalore",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": 1,
+        "team": "40",
+        "guestsServed": "5k",
+        "tabletopIO": true
+      }
+    ]
+  },
+  {
+    "slug": "zakir-khan",
+    "name": "Zakir Khan",
+    "type": "Comedy Show",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 4,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "35",
+    "guestsServed": "75K",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-12",
+    "image": "zakir-khan-event.webp",
+    "homepageDescription": "Mumbai comedy show with 4 bars deployed and 75K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "35",
+        "guestsServed": "75k",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "calvin-harris",
+    "name": "Calvin Harris",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 3,
+    "location": "3 Cities",
+    "cities": [
+      "Mumbai",
+      "Delhi",
+      "Bangalore"
+    ],
+    "barsDeployed": 12,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "50 per city",
+    "guestsServed": "30K",
+    "tabletopIO": true,
+    "tabletopIOCoverage": "All stops",
+    "addedOn": "2026-08-10",
+    "image": "calvin-harris-event.webp",
+    "homepageDescription": "3-city concert with 12 bars deployed and 30K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "50",
+        "guestsServed": "10k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Delhi",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "50",
+        "guestsServed": "10k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Bangalore",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "50",
+        "guestsServed": "10k",
+        "tabletopIO": true
+      }
+    ]
+  },
+  {
+    "slug": "voodoo-valley-festival",
+    "name": "Voodoo Valley Festival",
+    "type": "Festival",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Manali",
+    "cities": [
+      "Manali"
+    ],
+    "barsDeployed": 10,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "35",
+    "guestsServed": "5K",
+    "tabletopIO": true,
+    "tabletopIOCoverage": "All stops",
+    "addedOn": "2026-08-10",
+    "image": "voodoo-valley-event.webp",
+    "homepageDescription": "Manali festival with 10 bars deployed and 5K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Manali",
+        "barsDeployed": 10,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "35",
+        "guestsServed": "5k",
+        "tabletopIO": true
+      }
+    ]
+  },
+  {
+    "slug": "comedy-land",
+    "name": "Comedy Land",
+    "type": "Comedy Show",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 5,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "40",
+    "guestsServed": "10K",
+    "tabletopIO": true,
+    "tabletopIOCoverage": "All stops",
+    "addedOn": "2026-08-10",
+    "image": "comedy-land-event.webp",
+    "homepageDescription": "Mumbai comedy show with 5 bars deployed and 10K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 5,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "40",
+        "guestsServed": "10k",
+        "tabletopIO": true
+      }
+    ]
+  },
+  {
+    "slug": "anuv-jain",
+    "name": "Anuv Jain",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 5,
+    "location": "5 Cities",
+    "cities": [
+      "Mumbai",
+      "Delhi",
+      "Pune",
+      "Bangalore",
+      "Jaipur"
+    ],
+    "barsDeployed": 21,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "35–40 per city",
+    "guestsServed": "35K",
+    "tabletopIO": true,
+    "tabletopIOCoverage": "Mumbai",
+    "addedOn": "2026-08-10",
+    "image": "anuv-jain-event.webp",
+    "homepageDescription": "5-city concert with 21 bars deployed and 35K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 5,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "40",
+        "guestsServed": "7k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Delhi",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "35",
+        "guestsServed": "7k",
+        "tabletopIO": false
+      },
+      {
+        "city": "Pune",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "35",
+        "guestsServed": "7k",
+        "tabletopIO": false
+      },
+      {
+        "city": "Bangalore",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "35",
+        "guestsServed": "7k",
+        "tabletopIO": false
+      },
+      {
+        "city": "Jaipur",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "35",
+        "guestsServed": "7k",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "liquid-element",
+    "name": "Liquid Element",
+    "type": "Corporate",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 1,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "5",
+    "guestsServed": "150",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "concert-image.webp",
+    "homepageDescription": "Mumbai corporate with 1 bar deployed and 150 guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 1,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "5",
+        "guestsServed": "150",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "jwc-corporate",
+    "name": "JWC Corporate",
+    "type": "Corporate",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 1,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "12",
+    "guestsServed": "150",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "concert-image.webp",
+    "homepageDescription": "Mumbai corporate with 1 bar deployed and 150 guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 1,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "12",
+        "guestsServed": "150",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "woot-factor",
+    "name": "Woot Factor",
+    "type": "Corporate",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 1,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "8",
+    "guestsServed": "120",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "concert-image.webp",
+    "homepageDescription": "Mumbai corporate with 1 bar deployed and 120 guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 1,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "8",
+        "guestsServed": "120",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "casa-bacardi-x-comment",
+    "name": "Casa Bacardi X Comment",
+    "type": "Corporate",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 1,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "6",
+    "guestsServed": "120",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "concert-image.webp",
+    "homepageDescription": "Mumbai corporate with 1 bar deployed and 120 guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 1,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "6",
+        "guestsServed": "120",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "seventeen-event",
+    "name": "Seventeen event",
+    "type": "Corporate",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 1,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "5",
+    "guestsServed": "100",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "seventeen-event.webp",
+    "homepageDescription": "Mumbai corporate with 1 bar deployed and 100 guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 1,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "5",
+        "guestsServed": "100",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "casa-bacardi",
+    "name": "Casa Bacardi",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Bangalore",
+    "cities": [
+      "Bangalore"
+    ],
+    "barsDeployed": 1,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "25",
+    "guestsServed": "1K",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "casa-bacardi-event.webp",
+    "homepageDescription": "Bangalore concert with 1 bar deployed and 1K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Bangalore",
+        "barsDeployed": 1,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "25",
+        "guestsServed": "1000",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "one-night-in-toki-o",
+    "name": "One Night in Toki-O",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Bangalore",
+    "cities": [
+      "Bangalore"
+    ],
+    "barsDeployed": 1,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "25",
+    "guestsServed": "1K",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "tomoki-tamura-event.webp",
+    "homepageDescription": "Bangalore concert with 1 bar deployed and 1K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Bangalore",
+        "barsDeployed": 1,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "25",
+        "guestsServed": "1000",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "dream-girl-tour",
+    "name": "Dream Girl Tour",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 2,
+    "location": "2 Cities",
+    "cities": [
+      "Bangalore",
+      "Delhi"
+    ],
+    "barsDeployed": 12,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "30 per city",
+    "guestsServed": "14K",
+    "tabletopIO": true,
+    "tabletopIOCoverage": "All stops",
+    "addedOn": "2026-08-10",
+    "image": "dream-girl-event.webp",
+    "homepageDescription": "2-city concert with 12 bars deployed and 14K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Bangalore",
+        "barsDeployed": 6,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "30",
+        "guestsServed": "7k",
+        "tabletopIO": true
+      },
+      {
+        "city": "Delhi",
+        "barsDeployed": 6,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "30",
+        "guestsServed": "7k",
+        "tabletopIO": true
+      }
+    ]
+  },
+  {
+    "slug": "red-bull-unforeseen",
+    "name": "Red Bull Unforeseen",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 4,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "40",
+    "guestsServed": "1.5K",
+    "tabletopIO": true,
+    "tabletopIOCoverage": "All stops",
+    "addedOn": "2026-08-10",
+    "image": "red-bull-event.webp",
+    "homepageDescription": "Mumbai concert with 4 bars deployed and 1.5K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "40",
+        "guestsServed": "1.5k",
+        "tabletopIO": true
+      }
+    ]
+  },
+  {
+    "slug": "999s",
+    "name": "999's",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 4,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "4",
+    "guestsServed": "7K",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "italian-duo-event.webp",
+    "homepageDescription": "Mumbai concert with 4 bars deployed and 7K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "4",
+        "guestsServed": "7k",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "simba-uproar",
+    "name": "Simba Uproar",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 3,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "35",
+    "guestsServed": "3.5K",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "simba-uproar-event.webp",
+    "homepageDescription": "Mumbai concert with 3 bars deployed and 3.5K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 3,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "35",
+        "guestsServed": "3.5k",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "black-coffee",
+    "name": "Black Coffee",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Delhi",
+    "cities": [
+      "Delhi"
+    ],
+    "barsDeployed": 5,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "40",
+    "guestsServed": "20K",
+    "tabletopIO": true,
+    "tabletopIOCoverage": "All stops",
+    "addedOn": "2026-08-10",
+    "image": "black-coffee-event.webp",
+    "homepageDescription": "Delhi concert with 5 bars deployed and 20K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Delhi",
+        "barsDeployed": 5,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "40",
+        "guestsServed": "20k",
+        "tabletopIO": true
+      }
+    ]
+  },
+  {
+    "slug": "sammy-virji",
+    "name": "Sammy Virji",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 2,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "30",
+    "guestsServed": "2.5K",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "sammy-virji-event.webp",
+    "homepageDescription": "Mumbai concert with 2 bars deployed and 2.5K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 2,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "30",
+        "guestsServed": "2.5k",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "rishabh-sharma",
+    "name": "Rishabh Sharma",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 7,
+    "location": "7 Cities",
+    "cities": [
+      "Delhi",
+      "Mumbai",
+      "Bangalore",
+      "Kolkata",
+      "Pune",
+      "Chennai",
+      "Jaipur"
+    ],
+    "barsDeployed": null,
+    "scope": "Hydration Point's/Food's",
+    "vipTablesLounges": null,
+    "team": "25 per city",
+    "guestsServed": "105K",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "rishabh-sharma-event.webp",
+    "homepageDescription": "7-city concert with scope: Hydration Point's/Food's and 105K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Delhi",
+        "barsDeployed": null,
+        "scope": "Hydration Point's/Food's",
+        "vipTablesLounges": null,
+        "team": "25",
+        "guestsServed": "15k",
+        "tabletopIO": false
+      },
+      {
+        "city": "Mumbai",
+        "barsDeployed": null,
+        "scope": "Hydration Point's/Food's",
+        "vipTablesLounges": null,
+        "team": "25",
+        "guestsServed": "15k",
+        "tabletopIO": false
+      },
+      {
+        "city": "Bangalore",
+        "barsDeployed": null,
+        "scope": "Hydration Point's/Food's",
+        "vipTablesLounges": null,
+        "team": "25",
+        "guestsServed": "15k",
+        "tabletopIO": false
+      },
+      {
+        "city": "Kolkata",
+        "barsDeployed": null,
+        "scope": "Hydration Point's/Food's",
+        "vipTablesLounges": null,
+        "team": "25",
+        "guestsServed": "15k",
+        "tabletopIO": false
+      },
+      {
+        "city": "Pune",
+        "barsDeployed": null,
+        "scope": "Hydration Point's/Food's",
+        "vipTablesLounges": null,
+        "team": "25",
+        "guestsServed": "15k",
+        "tabletopIO": false
+      },
+      {
+        "city": "Chennai",
+        "barsDeployed": null,
+        "scope": "Hydration Point's/Food's",
+        "vipTablesLounges": null,
+        "team": "25",
+        "guestsServed": "15k",
+        "tabletopIO": false
+      },
+      {
+        "city": "Jaipur",
+        "barsDeployed": null,
+        "scope": "Hydration Point's/Food's",
+        "vipTablesLounges": null,
+        "team": "25",
+        "guestsServed": "15k",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "keine-musik",
+    "name": "Keine Musik",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 7,
+    "scope": null,
+    "vipTablesLounges": null,
+    "team": "200",
+    "guestsServed": "25K",
+    "tabletopIO": true,
+    "tabletopIOCoverage": "All stops",
+    "addedOn": "2026-08-10",
+    "image": "keinemusik-event.webp",
+    "homepageDescription": "Mumbai concert with 7 bars deployed and 25K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 7,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "200",
+        "guestsServed": "25k",
+        "tabletopIO": true
+      }
+    ]
+  },
+  {
+    "slug": "og-tour",
+    "name": "OG Tour",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 2,
+    "location": "2 Cities",
+    "cities": [
+      "Hyderabad",
+      "Bangalore"
+    ],
+    "barsDeployed": null,
+    "scope": "Food Partner",
+    "vipTablesLounges": null,
+    "team": null,
+    "guestsServed": null,
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "og-tour-event.webp",
+    "homepageDescription": "2-city concert with scope: Food Partner.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Hyderabad",
+        "barsDeployed": null,
+        "scope": "Food Partner",
+        "vipTablesLounges": null,
+        "team": null,
+        "guestsServed": null,
+        "tabletopIO": false
+      },
+      {
+        "city": "Bangalore",
+        "barsDeployed": null,
+        "scope": "Food Partner",
+        "vipTablesLounges": null,
+        "team": null,
+        "guestsServed": null,
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "lucky-ali",
+    "name": "Lucky ali",
+    "type": "Concert",
+    "year": 2026,
+    "cityCount": 1,
+    "location": "Mumbai",
+    "cities": [
+      "Mumbai"
+    ],
+    "barsDeployed": 4,
+    "scope": null,
+    "vipTablesLounges": 1,
+    "team": "40",
+    "guestsServed": "10K",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "lucky-ali-event.webp",
+    "homepageDescription": "Mumbai concert with 4 bars deployed and 10K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 4,
+        "scope": null,
+        "vipTablesLounges": 1,
+        "team": "40",
+        "guestsServed": "10k",
+        "tabletopIO": false
+      }
+    ]
+  },
+  {
+    "slug": "cdc",
+    "name": "CDC",
+    "type": "Corporate",
+    "year": 2026,
+    "cityCount": 2,
+    "location": "2 Cities",
+    "cities": [
+      "Mumbai",
+      "Goa"
+    ],
+    "barsDeployed": 1,
+    "scope": "Gift Box",
+    "vipTablesLounges": null,
+    "team": "6 per city",
+    "guestsServed": "1K",
+    "tabletopIO": false,
+    "tabletopIOCoverage": null,
+    "addedOn": "2026-08-10",
+    "image": "concert-image.webp",
+    "homepageDescription": "2-city corporate with 1 bar deployed and scope: Gift Box and 1K guests served.",
+    "featured": false,
+    "published": true,
+    "stops": [
+      {
+        "city": "Mumbai",
+        "barsDeployed": 1,
+        "scope": null,
+        "vipTablesLounges": null,
+        "team": "6",
+        "guestsServed": "1000",
+        "tabletopIO": false
+      },
+      {
+        "city": "Goa",
+        "barsDeployed": null,
+        "scope": "Gift Box",
+        "vipTablesLounges": null,
+        "team": null,
+        "guestsServed": null,
+        "tabletopIO": false
+      }
+    ]
+  }
+]
